@@ -146,6 +146,14 @@ const CONFIG = {
 					name: 'Manga',
 					link: 'https://mangadex.org/',
 				},
+				{
+					name: 'DeepL',
+					link: 'https://www.deepl.com/translator',
+				},
+				{
+					name: 'Google',
+					link: 'https://google.com'
+				}
 			],
 		},
 		{
