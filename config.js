@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Dogukan',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -32,8 +32,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '51.514244',
+	defaultLongitude: '7.468429',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -67,7 +67,7 @@ const CONFIG = {
 			id: '3',
 			name: 'ChatGPT',
 			icon: 'bot-message-square',
-			link: 'https://chat.open.ai/',
+			link: 'https://chat.openai.com',
 		},
 		{
 			id: '4',
@@ -138,21 +138,13 @@ const CONFIG = {
 			icon: 'clapperboard',
 			id: '1',
 			links: [
-					{
-					name: 'Movies',
-					link: 'https://pahe.ink/',
-				},
 				{
 					name: 'Anime',
-					link: 'https://gogoanime3.co/user/bookmark',
+					link: 'https://aniwave.to/',
 				},
 				{
 					name: 'Manga',
-					link: 'https://mangakatana.com/',
-				},
-				{
-					name: 'Books',
-					link: 'https://openlibrary.org/people/senalsdk/books',
+					link: 'https://mangadex.org/',
 				},
 			],
 		},
@@ -165,8 +157,8 @@ const CONFIG = {
 					link: 'https://dev.to/',
 				},
 				{
-					name: 'Expo',
-					link: 'https://expo.dev/',
+					name: 'Flutter',
+					link: 'https://docs.flutter.dev/',
 				},
 				{
 					name: 'G-Drive',
